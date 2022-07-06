@@ -55,7 +55,7 @@ public class HealthTrioExerciseApplication {
 			//Sort the filtered list by Pct_hospitals_mu percentage
 			Collections.sort(filteredList);
 			for(Cmsehr c : filteredList) {
-				log.info(c.getRegion() + " : " + c.getPct_hospitals_mu());
+				log.info(c.toString());
 
 			}
 		};

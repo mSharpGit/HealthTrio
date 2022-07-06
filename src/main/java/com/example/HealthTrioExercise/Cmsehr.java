@@ -31,6 +31,11 @@ public class Cmsehr implements Comparable<Cmsehr>{
     public Cmsehr() {
     }
 
+    @Override
+    public String toString() {
+        return "region='" + region + '\'' +
+                ", pct_hospitals_mu=" + pct_hospitals_mu;
+    }
 
     public String getRegion() {
         return region;
